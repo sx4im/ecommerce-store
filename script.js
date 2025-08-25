@@ -107,6 +107,25 @@ function init() {
   initImageLoading();
   initSearch();
   initImageGallery();
+  
+  // Debug: Add click listener to New Items button
+  const newItemsBtn = document.querySelector('a[href="#featured"]');
+  if (newItemsBtn) {
+    console.log('New Items button found:', newItemsBtn);
+    newItemsBtn.addEventListener('click', (e) => {
+      console.log('New Items button clicked!');
+      e.preventDefault();
+      const featuredSection = document.getElementById('featured');
+      if (featuredSection) {
+        console.log('Featured section found, scrolling to it');
+        featuredSection.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        console.log('Featured section not found');
+      }
+    });
+  } else {
+    console.log('New Items button not found');
+  }
 }
 
 // Image loading with skeleton
@@ -237,6 +256,12 @@ function showCategoryPage(categoryKey) {
       const productId = e.currentTarget.dataset.product;
       showProductModal(productId);
     });
+  });
+
+  // Scroll to top of the page when showing category
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
   });
 
   // Re-initialize scroll animations and image loading
@@ -484,6 +509,12 @@ function showHomePage() {
   // Re-render components
   renderCategories();
   renderFeaturedProducts();
+  
+  // Scroll to top of the page when showing home
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
   
   // Re-initialize scroll animations, image loading, and search
   setTimeout(() => {
