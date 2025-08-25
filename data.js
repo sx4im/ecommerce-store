@@ -22,11 +22,11 @@ const products = [
     featured: true
   },
   {
-    id: "pulse-smartwatch",
-    name: "Pulse Smartwatch",
+    id: "transparent powerbank",
+    name: "Transparent PowerBank",
     price: 299.99,
-    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop",
-    description: "Advanced smartwatch with health monitoring and GPS tracking.",
+    image: "https://ae01.alicdn.com/kf/Sf543a807393f4fd4a81c504b8fce809em.jpg?width=800&height=800&hash=1600",
+    description: "Transparent 20000mAh Power Bank 66W Fast Charging Portable Charger External Battery Pack Powerbank For iPhone Android and all Devices",
     category: "accessories",
     featured: true
   },
