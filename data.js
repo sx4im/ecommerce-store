@@ -33,7 +33,7 @@ const products = [
   {
     id: "Tomi Watch",
     name: "Tomi Skeleton Face Watch",
-    price: 79.99,
+    price: 3999,
     image: "https://pk-live-21.slatic.net/kf/Sca2eaf11eee2418faf760cd80ff58b27u.jpg",
     description: "TOMI T-102 Skelton Face Gear Dual Strap Watch",
     category: "accessories",
