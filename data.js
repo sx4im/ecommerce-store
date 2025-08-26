@@ -171,7 +171,7 @@ const products = [
 const categories = [
   {
     key: "accessories",
-    title: "Tech Accessories",
+    title: "Accessories",
     subtitle: "Premium Audio & Power",
     image: "https://images.unsplash.com/photo-1624823183493-ed5832f48f18?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     link: "#accessories",

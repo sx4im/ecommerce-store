@@ -212,7 +212,7 @@ main {
   object-fit: contain;
   display: block;
   transition: var(--transition-smooth);
-  margin-right: 200px;
+  margin-right: 120px;
 }
 
 @media (max-width: 768px) {
@@ -633,7 +633,7 @@ main {
 
   .brand-logo img {
     height: 160px;
-    width: 100px;
+    width: 80px;
   }
 
   .navbar {
