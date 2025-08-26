@@ -22,6 +22,15 @@ const products = [
     featured: true
   },
   {
+    id: "P9 Pro Max Wireless Headphones",
+    name: "P9 Pro Max Headphones",
+    price: 1499,
+    image: "https://img4.dhresource.com/webp/m/260x260/f3/albu/km/n/18/98340e65-d53f-4bc6-bf06-de7b6b7448d9.jpg",
+    description: "The P9 Wireless BT Headphones are designed to deliver a high-quality audio experience with advanced features and versatile functionality.",
+    category: "accessories",
+    featured: false
+  },
+  {
     id: "puma wallet",
     name: "PUMA Wallet",
     price: 549,
@@ -72,7 +81,7 @@ const products = [
     price: 2299,
     image: "https://cubeonline.pk/cdn/shop/files/02e28ef4bbc1f1ebbf2ee9579fd9c764_jpg_750x750_jpg_1024x1024.webp?v=1708941163",
     description: "T10 Ultra Bluetooth Calling Smart Watch 2.09inch.",
-    category: "clothing",
+    category: "accessories",
     featured: true
   },
   {
@@ -81,7 +90,7 @@ const products = [
     price: 749,
     image: "https://static-01.daraz.pk/p/2ca22099afa8eb7f02f405a2fe9197f7.jpg",
     description: "Slim and light weight Badenroo Leather Wallet for Men.",
-    category: "clothing",
+    category: "accessories",
     featured: true
   },
   {
@@ -94,29 +103,29 @@ const products = [
     featured: true
   },
   {
-    id: "urban-cap",
-    name: "Urban Snapback Cap",
-    price: 34.99,
-    image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=400&h=300&fit=crop",
-    description: "Classic snapback cap with embroidered logo and adjustable fit.",
+    id: "Men's Grey Jersey T-Shirt",
+    name: "Men's Grey T-Shirt",
+    price:699,
+    image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQPIzSfVmz-DN47okSmLe25JRilthP9r-6p163kvBaP8yW0U8Ap",
+    description: "Elevate your casual wardrobe with this Premium Men's Grey Jersey T-Shirt.",
     category: "clothing",
     featured: false
   },
   {
-    id: "bolt-backpack",
-    name: "Bolt Tech Backpack",
-    price: 159.99,
-    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop",
-    description: "Modern backpack with laptop compartment and USB charging port.",
+    id: "Hp laptop bag",
+    name: "Hp Laptop Bag",
+    price: 899,
+    image: "https://content.public.markaz.app/markazimagevideo/public/products/860-123-464533-product-1.jpg",
+    description: "Modern backpack with laptop compartment and water resistance.",
     category: "bags",
     featured: false
   },
   {
-    id: "swift-messenger",
-    name: "Swift Messenger Bag",
-    price: 99.99,
-    image: "https://images.unsplash.com/photo-1553735027-8d8d5b0d3b60?w=400&h=300&fit=crop",
-    description: "Compact messenger bag perfect for daily commutes and travel.",
+    id: "Black Polyester Carrying Solution",
+    name: "Black Polyester Carrying Bag",
+    price: 1999,
+    image: "https://content.public.markaz.app/markazimagevideo/public/products/974-270-496688-product-3.jpg",
+    description: "Introducing the versatile Multipurpose Laptop Bag – designed to cater to all your carrying needs! ",
     category: "bags",
     featured: false
   },
@@ -129,39 +138,30 @@ const products = [
     category: "bags",
     featured: false
   },
+  // {
+  //   id: "quantum-laptop-sleeve",
+  //   name: "Quantum Laptop Sleeve",
+  //   price: 45.99,
+  //   image: "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=400&h=300&fit=crop",
+  //   description: "Premium neoprene laptop sleeve with extra padding and water resistance.",
+  //   category: "accessories",
+  //   featured: false
+  // },
+  // {
+  //   id: "crystal-desk-lamp",
+  //   name: "Crystal Desk Lamp",
+  //   price: 89.99,
+  //   image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400&h=300&fit=crop",
+  //   description: "Modern LED desk lamp with adjustable brightness and color temperature.",
+  //   category: "accessories",
+  //   featured: false
+  // },
   {
-    id: "micro-wallet",
-    name: "Micro Minimalist Wallet",
-    price: 59.99,
-    image: "https://images.unsplash.com/photo-1627123424574-724758594e93?w=400&h=300&fit=crop",
-    description: "Ultra-slim wallet with RFID blocking and premium leather construction.",
-    category: "accessories",
-    featured: false
-  },
-  {
-    id: "quantum-laptop-sleeve",
-    name: "Quantum Laptop Sleeve",
-    price: 45.99,
-    image: "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=400&h=300&fit=crop",
-    description: "Premium neoprene laptop sleeve with extra padding and water resistance.",
-    category: "accessories",
-    featured: false
-  },
-  {
-    id: "crystal-desk-lamp",
-    name: "Crystal Desk Lamp",
-    price: 89.99,
-    image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400&h=300&fit=crop",
-    description: "Modern LED desk lamp with adjustable brightness and color temperature.",
-    category: "accessories",
-    featured: false
-  },
-  {
-    id: "velocity-running-shoes",
-    name: "Velocity Running Shoes",
-    price: 129.99,
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=300&fit=crop",
-    description: "Lightweight running shoes with superior comfort and performance.",
+    id: "Men’s Unstitched Cotton Plain Suit",
+    name: "Men’s Unstitched Cotton Suit",
+    price: 1599,
+    image: "https://dakaan.pk/product_images/mens-unstitched-cotton-plain-suit-fdbdb711b240d5ef.webp",
+    description: "Men's Unstitched Cotton Plain Suit by Gul Ahmed,a premium quality fabric offering comfort, elegance, and timeless style.",
     category: "clothing",
     featured: false
   }
