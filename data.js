@@ -1,6 +1,6 @@
 // Store configuration
 const STORE = {
-  name: "AFS Store",
+  name: "AFS Centre",
   whatsappNumber: "923251462621",
   currency: "PKR",
   currencySymbol: "₨",

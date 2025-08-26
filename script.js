@@ -331,7 +331,7 @@ function showProductModalContent(product) {
     <div class="product-modal active" id="productModal">
       <div class="product-modal-content">
         <div class="product-modal-header">
-          <h2 class="product-modal-title">AFS Store</h2>
+          <h2 class="product-modal-title">AFS Centre</h2>
           <button class="product-modal-close" onclick="closeProductModal()">×</button>
         </div>
         <div class="product-modal-body">
