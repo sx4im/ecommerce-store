@@ -1,4 +1,5 @@
 // DOM elements
+const loadingOverlay = document.getElementById('loadingOverlay');
 const mobileMenuBtn = document.getElementById('mobileMenuBtn');
 const mobileMenu = document.getElementById('mobileMenu');
 const heroGradient = document.getElementById('heroGradient');
@@ -318,6 +319,16 @@ function showProductModal(productId) {
   // Add loading modal
   document.body.insertAdjacentHTML('beforeend', loadingHTML);
 
+  // Add click outside to close functionality for loading modal
+  const loadingModal = document.getElementById('productModal');
+  if (loadingModal) {
+    loadingModal.addEventListener('click', (e) => {
+      if (e.target.classList.contains('product-modal')) {
+        closeProductModal();
+      }
+    });
+  }
+
   // Simulate loading delay for better UX
   setTimeout(() => {
     showProductModalContent(product);
@@ -386,20 +397,31 @@ function showProductModalContent(product) {
 
   // Add modal to page
   document.body.insertAdjacentHTML('beforeend', modalHTML);
-
-  // Add click handler to close modal when clicking outside
-  document.getElementById('productModal').addEventListener('click', (e) => {
-    if (e.target.classList.contains('product-modal')) {
-      closeProductModal();
-    }
-  });
+  
+  // Add click outside to close functionality
+  const modal = document.getElementById('productModal');
+  if (modal) {
+    modal.addEventListener('click', (e) => {
+      if (e.target.classList.contains('product-modal')) {
+        closeProductModal();
+      }
+    });
+  }
 }
 
 // Close product modal
 function closeProductModal() {
   const modal = document.getElementById('productModal');
   if (modal) {
-    modal.remove();
+    // Add fade out effect before removing
+    modal.style.opacity = '0';
+    modal.style.transform = 'scale(0.9)';
+    
+    setTimeout(() => {
+      if (modal && modal.parentNode) {
+        modal.remove();
+      }
+    }, 300);
   }
 }
 
@@ -930,6 +952,28 @@ function initImageGallery() {
     });
   });
 }
+
+// Loading functionality
+function hideLoadingOverlay() {
+  if (loadingOverlay) {
+    loadingOverlay.classList.add('hidden');
+    // Remove the overlay from DOM after animation completes
+    setTimeout(() => {
+      if (loadingOverlay && loadingOverlay.parentNode) {
+        loadingOverlay.parentNode.removeChild(loadingOverlay);
+      }
+    }, 800);
+  }
+}
+
+// Hide loading overlay when page is fully loaded
+window.addEventListener('load', () => {
+  // Add a small delay to ensure smooth transition
+  setTimeout(hideLoadingOverlay, 500);
+});
+
+// Fallback: Hide loading overlay after 3 seconds if load event doesn't fire
+setTimeout(hideLoadingOverlay, 3000);
 
 // Initialize the app when DOM is loaded
 document.addEventListener('DOMContentLoaded', init);
