@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .brutalist-shadow {
+    box-shadow: 8px 8px 0px 0px #000000;
+  }
+  
+  .brutalist-shadow-sm {
+    box-shadow: 4px 4px 0px 0px #000000;
+  }
+  
+  .brutalist-text-shadow {
+    text-shadow: 4px 4px 0px #000000;
+  }
+  
+  .font-brutal {
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-weight: 900;
+  }
+  
+  .border-3 {
+    border-width: 3px;
+  }
+  
+  .border-4 {
+    border-width: 4px;
+  }
+  
+  .border-5 {
+    border-width: 5px;
+  }
+  
+  /* Text truncation utilities */
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-black;
+  }
+  
+  body {
+    @apply bg-white text-black font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-brutal;
+  }
+}

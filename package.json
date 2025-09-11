@@ -1,0 +1,30 @@
+{
+  "name": "afs-centre",
+  "version": "1.0.0",
+  "description": "AFS Centre - Bold Accessories Store",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "vite": "^4.1.0"
+  },
+  "keywords": ["react", "vite", "tailwindcss", "ecommerce"],
+  "author": "AFS Centre",
+  "license": "MIT"
+}
