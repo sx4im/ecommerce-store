@@ -36,7 +36,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <div className="flex items-center justify-center gap-4 mb-6">
               <div className="w-8 h-8 bg-red-500 border-4 border-black transform rotate-45"></div>
-            <h2 className="font-brutal text-3xl md:text-5xl text-black transform -rotate-1">
+            <h2 className="font-brutal text-2xl sm:text-3xl md:text-5xl text-black transform -rotate-1">
               FEATURED ITEMS
             </h2>
               <div className="w-8 h-8 bg-red-500 border-4 border-black transform -rotate-45"></div>
