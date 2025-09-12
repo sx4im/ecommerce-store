@@ -1,8 +1,10 @@
-# 🛍️ AFS CENTRE - Bold Accessories Store
+# 🛍️ Neo-Brutalism E-Commerce Template
 
-> **Your Ultimate Destination for Bold and Stylish Accessories**
+> **Open Source React E-Commerce Template with Bold Neo-Brutalism Design**
 
-A modern e-commerce website built with **React** and **Neo-Brutalism** design philosophy, featuring a bold, unapologetic aesthetic that makes accessories shopping an unforgettable experience.
+A modern, fully-featured e-commerce template built with **React** and **Neo-Brutalism** design philosophy. Perfect for creating bold, unapologetic online stores that stand out from the crowd.
+
+**Created by [Saim Shafique](https://saimshafique.com) | [GitHub](https://github.com/sx4im)**
 
 ---
 
@@ -18,16 +20,17 @@ A modern e-commerce website built with **React** and **Neo-Brutalism** design ph
 
 ---
 
-## 🚀 **Features**
+## 🚀 **Template Features**
 
 ### 🛒 **E-Commerce Functionality**
-- **Product Catalog** - 24+ premium accessories across 10 categories
-- **Featured Products** - Curated selection of bestsellers
-- **Search & Filter** - Find products by category, name, or description
-- **WhatsApp Integration** - Direct ordering via WhatsApp
-- **Responsive Design** - Perfect on all devices
+- **Product Catalog** - Complete product management system
+- **Featured Products** - Highlight bestsellers and promotions
+- **Search & Filter** - Advanced filtering by category, name, or description
+- **WhatsApp Integration** - Direct customer communication
+- **Responsive Design** - Mobile-first approach for all devices
+- **Ready-to-Deploy** - Production-ready code structure
 
-### 🎯 **Product Categories**
+### 🎯 **Demo Categories** (Easily Customizable)
 - 💍 **Jewelry** - Necklaces, bracelets, rings, earrings
 - ⌚ **Watches** - Premium, sports, and smart watches
 - 👜 **Bags** - Designer, crossbody, and evening clutches
@@ -39,10 +42,11 @@ A modern e-commerce website built with **React** and **Neo-Brutalism** design ph
 - 👔 **Belts** - Genuine and designer leather belts
 - 💳 **Wallets** - Luxury and minimalist designs
 
-### 📱 **Social Integration**
-- 📸 **Instagram**: [@afs.centre](https://www.instagram.com/afs.centre)
-- 📘 **Facebook**: [AFS Centre](https://www.facebook.com/share/19q7CarS6W/?mibextid=wwXIfr)
-- 📧 **Email**: [afs.centre04@gmail.com](mailto:afs.centre04@gmail.com)
+### 📱 **Template Features**
+- 🔗 **Social Media Integration** - Instagram, Facebook, Email links
+- 💬 **WhatsApp Integration** - Direct customer communication
+- 📱 **Mobile Responsive** - Works perfectly on all devices
+- 🎨 **Customizable Branding** - Easy to modify colors, fonts, and content
 
 ---
 
@@ -70,7 +74,7 @@ A modern e-commerce website built with **React** and **Neo-Brutalism** design ph
 git clone https://github.com/sx4im/ecommerce-store
 
 # Navigate to project directory
-cd afs-centre
+cd ecommerce-store
 
 # Install dependencies
 npm install
@@ -215,11 +219,11 @@ Small Shadow: 4px 4px 0px #000000
 - **Quick Contact** from hero section
 - **Product Inquiries** with details
 
-### **Business Information**
-- **Brand**: AFS Centre
-- **Tagline**: Bold Accessories For You
-- **Email**: afs.centre04@gmail.com
-- **Social Media**: Instagram & Facebook integrated
+### **Template Configuration**
+- **Easy Branding** - Modify brand name, colors, and content
+- **Customizable Taglines** - Update messaging to fit your business
+- **Contact Integration** - Easy email and social media setup
+- **WhatsApp Business** - Direct customer communication
 
 ---
 
@@ -275,7 +279,7 @@ npm run lint         # Run ESLint
 
 ## 🤝 **Contributing**
 
-We welcome contributions! Please follow these guidelines:
+Contributions are welcome! This template is open source and free to use. Please follow these guidelines:
 
 1. **Fork** the repository
 2. **Create** a feature branch
@@ -283,32 +287,93 @@ We welcome contributions! Please follow these guidelines:
 4. **Test** on multiple devices
 5. **Submit** a pull request
 
+### **Ways to Contribute**
+- 🐛 **Bug Fixes** - Help improve the template
+- ✨ **New Features** - Add functionality for e-commerce
+- 🎨 **Design Improvements** - Enhance the neo-brutalism aesthetic
+- 📚 **Documentation** - Improve guides and examples
+- 🌍 **Translations** - Multi-language support
+
 ---
 
 ## 📄 **License**
 
-© 2024 **AFS Centre** - All Rights Reserved
+**MIT License** - Free to use for personal and commercial projects
+
+```
+MIT License
+
+Copyright (c) 2024 Saim Shafique
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
 
 ---
 
 ## 🙏 **Acknowledgments**
 
-- **Neo-Brutalism** design inspiration
-- **Tailwind CSS** for utility-first styling
-- **React** ecosystem for robust development
-- **Lucide React** for beautiful icons
+- **Neo-Brutalism** design inspiration from contemporary web design trends
+- **Tailwind CSS** for utility-first styling approach
+- **React** ecosystem for robust component-based development
+- **Lucide React** for beautiful, consistent iconography
+- **Open Source Community** for inspiration and support
 
 ---
 
-## 📞 **Get In Touch**
+## 👨‍💻 **About the Creator**
 
-**Ready to shop or have questions?**
+**Saim Shafique** - Full Stack Developer & Designer
+
+🌐 **Portfolio**: [saimshafique.com](https://saimshafique.com)  
+💻 **GitHub**: [@sx4im](https://github.com/sx4im)  
+💼 **LinkedIn**: Connect for collaborations  
+📧 **Contact**: Available through portfolio website
+
+### **Other Projects**
+Check out more open source templates and projects on my GitHub profile!
+
+---
+
+## 🌟 **Show Your Support**
+
+If this template helped you build something awesome:
+
+⭐ **Star this repository**  
+🍴 **Fork and customize it**  
+📢 **Share with the community**  
+☕ **Buy me a coffee** (link in GitHub profile)
+
+---
+
+## 📞 **Demo Contact Info**
+
+*The following are demo contact details included in the template:*
 
 📸 **Instagram**: [@afs.centre](https://www.instagram.com/afs.centre)  
-📘 **Facebook**: [AFS Centre](https://www.facebook.com/share/19q7CarS6W/?mibextid=wwXIfr)  
+📘 **Facebook**: [Demo Store](https://www.facebook.com/share/19q7CarS6W/?mibextid=wwXIfr)  
 📧 **Email**: [afs.centre04@gmail.com](mailto:afs.centre04@gmail.com)  
 💬 **WhatsApp**: [+923251462621](https://wa.me/+923251462621)
 
+*Replace these with your own business details when using the template.*
+
 ---
 
-**Made with ❤️ and Bold Design by AFS Centre Team**
+**Made with ❤️ and Bold Design by [Saim Shafique](https://saimshafique.com)**
+
+*Open Source • Free to Use • Neo-Brutalism Design*
