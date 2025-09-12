@@ -1,22 +1,44 @@
-# 🛍️ E-Commerce Template
+<div align="center">
 
-> **Open Source React E-Commerce Template with Bold Neo-Brutalism Design**
+# 🛍️ Neo-Brutalism E-Commerce Template
 
-A modern, fully-featured e-commerce template built with **React** and **Neo-Brutalism** design philosophy. Perfect for creating bold, unapologetic online stores that stand out from the crowd.
+### *Open Source React E-Commerce Template with Bold Neo-Brutalism Design*
 
-**Created by [Saim Shafique](https://saimshafique.com) | [GitHub](https://github.com/sx4im)**
+<br>
+
+A modern, fully-featured e-commerce template built with **React** and **Neo-Brutalism** design philosophy.  
+Perfect for creating bold, unapologetic online stores that stand out from the crowd.
+
+<br>
+
+**Created by [Saim Shafique](https://saimshafique.com)** • **[GitHub](https://github.com/sx4im)**
+
+<br>
+
+[![GitHub stars](https://img.shields.io/github/stars/sx4im/ecommerce-store?style=for-the-badge&color=red)](https://github.com/sx4im/ecommerce-store)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/React-18.0.0-blue.svg?style=for-the-badge&logo=react)](https://reactjs.org/)
+
+</div>
 
 ---
 
+<div align="center">
+
 ## 🎨 **Design Philosophy**
 
+</div>
+
 **Neo-Brutalism at its Finest**
-- ✨ Bold, high-contrast colors
-- 🔲 Thick black borders (3-4px)
-- 🎯 Harsh drop shadows
-- 📐 Intentionally "undesigned" aesthetic
-- 🎭 Raw typography with asymmetrical layouts
-- 🚫 No gradients or subtle elements
+
+| Element | Implementation |
+|---------|----------------|
+| ✨ **Colors** | Bold, high-contrast colors |
+| 🔲 **Borders** | Thick black borders (3-4px) |
+| 🎯 **Shadows** | Harsh drop shadows |
+| 📐 **Aesthetic** | Intentionally "undesigned" |
+| 🎭 **Typography** | Raw with asymmetrical layouts |
+| 🚫 **Style** | No gradients or subtle elements |
 
 ---
 
@@ -50,25 +72,39 @@ A modern, fully-featured e-commerce template built with **React** and **Neo-Brut
 
 ---
 
+<div align="center">
+
 ## 🛠️ **Tech Stack**
 
+</div>
+
+<div align="center">
+
 | Technology | Purpose | Version |
-|------------|---------|---------|
-| **React** | Frontend Framework | ^18.0.0 |
-| **React Router** | Navigation | ^6.0.0 |
-| **Tailwind CSS** | Styling Framework | ^3.0.0 |
-| **Lucide React** | Icon Library | Latest |
-| **Vite** | Build Tool | ^4.0.0 |
+|:----------:|:-------:|:-------:|
+| ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | Frontend Framework | ^18.0.0 |
+| ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) | Navigation | ^6.0.0 |
+| ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) | Styling Framework | ^3.0.0 |
+| ![Lucide](https://img.shields.io/badge/Lucide-000000?style=for-the-badge&logo=lucide&logoColor=white) | Icon Library | Latest |
+| ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) | Build Tool | ^4.0.0 |
+
+</div>
 
 ---
 
+<div align="center">
+
 ## 📦 **Installation**
 
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
+</div>
 
-### Quick Start
+### 📋 Prerequisites
+```
+Node.js (v16 or higher)
+npm or yarn
+```
+
+### ⚡ Quick Start
 ```bash
 # Clone the repository
 git clone https://github.com/sx4im/ecommerce-store
@@ -86,16 +122,12 @@ npm run dev
 npm run build
 ```
 
-### Environment Setup
-```bash
-# Development
-npm run dev
-# → http://localhost:5173
-
-# Production Build
-npm run build
-npm run preview
-```
+### 🌐 Environment Setup
+| Command | Purpose | URL |
+|---------|---------|-----|
+| `npm run dev` | Development | http://localhost:5173 |
+| `npm run build` | Production Build | - |
+| `npm run preview` | Preview Build | - |
 
 ---
 
@@ -211,21 +243,6 @@ Small Shadow: 4px 4px 0px #000000
 
 ---
 
-## 📞 **Contact & Ordering**
-
-### **WhatsApp Integration**
-- **Phone**: +923251462621
-- **Direct Ordering** from product pages
-- **Quick Contact** from hero section
-- **Product Inquiries** with details
-
-### **Template Configuration**
-- **Easy Branding** - Modify brand name, colors, and content
-- **Customizable Taglines** - Update messaging to fit your business
-- **Contact Integration** - Easy email and social media setup
-- **WhatsApp Business** - Direct customer communication
-
----
 
 ## 🚀 **Deployment**
 
@@ -303,7 +320,7 @@ Contributions are welcome! This template is open source and free to use. Please 
 ```
 MIT License
 
-Copyright (c) 2024 Saim Shafique
+Copyright (c) 2025 Saim Shafique
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
