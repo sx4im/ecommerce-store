@@ -41,11 +41,9 @@ export default function ProductPage() {
     const message = `Hi! I want to order:
     
 Product: ${product.name}
-Price: PKR ${product.price.toLocaleString('en-PK')}
 Quantity: ${quantity}
-Total: PKR ${(product.price * quantity).toLocaleString('en-PK')}
 
-Please confirm availability and shipping details.`;
+Please confirm availability, pricing and shipping details.`;
 
     const whatsappUrl = `https://wa.me/+923251462621?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
@@ -207,7 +205,7 @@ Please confirm availability and shipping details.`;
                   className="w-full bg-green-500 text-black px-8 py-4 border-4 border-black brutalist-shadow font-brutal text-xl hover:bg-green-400 transition-colors duration-200 transform hover:-translate-y-1 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   <ShoppingCart className="w-6 h-6" />
-                  ORDER VIA WHATSAPP - PKR {(product.price * quantity).toLocaleString('en-PK')}
+                  ORDER VIA WHATSAPP
                 </button>
 
                 <div className="flex gap-4">

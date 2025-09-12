@@ -63,8 +63,8 @@ export default function HeroSection() {
           </div>
           
           {/* Right Content - Featured Product */}
-          <div className="relative">
-            <div className="bg-white border-4 border-black brutalist-shadow transform rotate-3 hover:rotate-0 transition-transform duration-300">
+          <div className="relative max-w-md mx-auto">
+            <div className="bg-white border-4 border-black brutalist-shadow transform rotate-0 hover:rotate-3 transition-transform duration-300">
               <img
                 src="https://images.unsplash.com/photo-1665398921338-949789aa4db2?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Premium Watch"

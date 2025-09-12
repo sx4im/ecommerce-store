@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { createPageUrl } from "../src/utils";
 
 export default function ProductCard({ product, className = "" }) {
-  const whatsappMessage = `Hi! I'm interested in ${product.name} - PKR ${product.price.toLocaleString('en-PK')}. Please send me more details.`;
+  const whatsappMessage = `Hi! I'm interested in ${product.name}. Please send me more details and pricing.`;
   const whatsappUrl = `https://wa.me/+923251462621?text=${encodeURIComponent(whatsappMessage)}`;
   const productUrl = createPageUrl(`Product?id=${product.id}`);
 

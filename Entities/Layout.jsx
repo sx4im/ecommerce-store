@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { createPageUrl } from "../src/utils";
-import { ShoppingBag, Home, Package, Phone } from "lucide-react";
+import { ShoppingBag, Home, Package, Phone, Menu, X, Mail } from "lucide-react";
 
 const navigationItems = [
 {
@@ -24,6 +24,7 @@ const navigationItems = [
 
 export default function Layout({ children, currentPageName }) {
   const location = useLocation();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
     <div className="min-h-screen bg-yellow-100">
@@ -94,8 +95,12 @@ export default function Layout({ children, currentPageName }) {
 
             {/* Mobile Menu Button */}
             <div className="md:hidden">
-              <button className="bg-black text-yellow-400 px-3 py-2 sm:p-3 border-3 sm:border-4 border-black brutalist-shadow font-brutal text-sm sm:text-base">
-                MENU
+              <button 
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                className="bg-black text-yellow-400 px-3 py-2 sm:p-3 border-3 sm:border-4 border-black brutalist-shadow font-brutal text-sm sm:text-base flex items-center gap-2"
+              >
+                {isMobileMenuOpen ? <X className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
+                {isMobileMenuOpen ? 'CLOSE' : 'MENU'}
               </button>
             </div>
           </div>
@@ -107,8 +112,8 @@ export default function Layout({ children, currentPageName }) {
       </header>
 
       {/* Mobile Navigation */}
-      <nav className="md:hidden bg-white border-b-4 border-black">
-        <div className="flex justify-around py-3 px-2">
+      <nav className={`md:hidden bg-white border-b-4 border-black transition-all duration-300 ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
+        <div className="flex flex-col py-3 px-4 space-y-2">
           {navigationItems.map((item) =>
           item.external ?
           <a
@@ -116,21 +121,23 @@ export default function Layout({ children, currentPageName }) {
             href={item.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col items-center gap-1 text-black hover:text-red-500 min-w-0 flex-1">
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="flex items-center gap-3 py-3 px-4 text-black hover:bg-yellow-400 hover:text-black transition-colors border-2 border-black brutalist-shadow-sm font-brutal">
 
-                <item.icon className="w-5 h-5 sm:w-6 sm:h-6" />
-                <span className="font-brutal text-xs truncate">{item.title}</span>
+                <item.icon className="w-5 h-5" />
+                <span className="text-sm">{item.title}</span>
               </a> :
 
           <Link
             key={item.title}
             to={item.url}
-            className={`flex flex-col items-center gap-1 min-w-0 flex-1 ${
-            location.pathname === item.url ? 'text-red-500' : 'text-black'}`
+            onClick={() => setIsMobileMenuOpen(false)}
+            className={`flex items-center gap-3 py-3 px-4 transition-colors border-2 border-black brutalist-shadow-sm font-brutal text-sm ${
+            location.pathname === item.url ? 'bg-red-500 text-white' : 'text-black hover:bg-yellow-400 hover:text-black'}`
             }>
 
-                <item.icon className="w-5 h-5 sm:w-6 sm:h-6" />
-                <span className="font-brutal text-xs truncate">{item.title}</span>
+                <item.icon className="w-5 h-5" />
+                <span>{item.title}</span>
               </Link>
 
           )}
@@ -163,13 +170,40 @@ export default function Layout({ children, currentPageName }) {
             </div>
             <div className="transform -rotate-1">
               <h4 className="font-brutal text-lg mb-4">FOLLOW US</h4>
-              <div className="flex gap-4">
-                <div className="w-12 h-12 bg-red-500 border-4 border-black brutalist-shadow flex items-center justify-center font-brutal">
-                  IG
-                </div>
-                <div className="w-12 h-12 bg-blue-500 border-4 border-black brutalist-shadow flex items-center justify-center font-brutal">
-                  FB
-                </div>
+              <div className="flex flex-wrap gap-4">
+                {/* Instagram */}
+                <a
+                  href="https://www.instagram.com/afs.centre"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transform rotate-2 hover:rotate-0 transition-transform duration-200"
+                >
+                  <div className="w-14 h-14 bg-pink-500 border-4 border-black brutalist-shadow flex items-center justify-center font-brutal text-white hover:-translate-y-1">
+                    <span className="text-xl font-black">IG</span>
+                  </div>
+                </a>
+
+                {/* Facebook */}
+                <a
+                  href="https://www.facebook.com/share/19q7CarS6W/?mibextid=wwXIfr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transform -rotate-1 hover:rotate-0 transition-transform duration-200"
+                >
+                  <div className="w-14 h-14 bg-blue-500 border-4 border-black brutalist-shadow flex items-center justify-center font-brutal text-white hover:-translate-y-1">
+                    <span className="text-xl font-black">FB</span>
+                  </div>
+                </a>
+
+                {/* Gmail */}
+                <a
+                  href="mailto:afs.centre04@gmail.com"
+                  className="transform rotate-1 hover:rotate-0 transition-transform duration-200"
+                >
+                  <div className="w-14 h-14 bg-red-500 border-4 border-black brutalist-shadow flex items-center justify-center font-brutal text-white hover:-translate-y-1">
+                    <span className="text-xl font-black">GM</span>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
