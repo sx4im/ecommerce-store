@@ -1,4 +1,4 @@
-# 🛍️ Neo-Brutalism E-Commerce Template
+# 🛍️ E-Commerce Template
 
 > **Open Source React E-Commerce Template with Bold Neo-Brutalism Design**
 
@@ -324,56 +324,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
----
 
-## 🙏 **Acknowledgments**
-
-- **Neo-Brutalism** design inspiration from contemporary web design trends
-- **Tailwind CSS** for utility-first styling approach
-- **React** ecosystem for robust component-based development
-- **Lucide React** for beautiful, consistent iconography
-- **Open Source Community** for inspiration and support
-
----
-
-## 👨‍💻 **About the Creator**
-
-**Saim Shafique** - Full Stack Developer & Designer
-
-🌐 **Portfolio**: [saimshafique.com](https://saimshafique.com)  
-💻 **GitHub**: [@sx4im](https://github.com/sx4im)  
-💼 **LinkedIn**: Connect for collaborations  
-📧 **Contact**: Available through portfolio website
-
-### **Other Projects**
-Check out more open source templates and projects on my GitHub profile!
-
----
-
-## 🌟 **Show Your Support**
-
-If this template helped you build something awesome:
-
-⭐ **Star this repository**  
-🍴 **Fork and customize it**  
-📢 **Share with the community**  
-☕ **Buy me a coffee** (link in GitHub profile)
-
----
-
-## 📞 **Demo Contact Info**
-
-*The following are demo contact details included in the template:*
-
-📸 **Instagram**: [@afs.centre](https://www.instagram.com/afs.centre)  
-📘 **Facebook**: [Demo Store](https://www.facebook.com/share/19q7CarS6W/?mibextid=wwXIfr)  
-📧 **Email**: [afs.centre04@gmail.com](mailto:afs.centre04@gmail.com)  
-💬 **WhatsApp**: [+923251462621](https://wa.me/+923251462621)
-
-*Replace these with your own business details when using the template.*
-
----
-
-**Made with ❤️ and Bold Design by [Saim Shafique](https://saimshafique.com)**
-
-*Open Source • Free to Use • Neo-Brutalism Design*
