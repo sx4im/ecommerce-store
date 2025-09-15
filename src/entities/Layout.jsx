@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { createPageUrl } from "../src/utils";
-import { ShoppingBag, Home, Package, Phone, Menu, X, Mail } from "lucide-react";
+import { createPageUrl } from "../utils";
+import { ShoppingBag, Home, Package, Phone, Menu, X } from "lucide-react";
 
 const navigationItems = [
 {

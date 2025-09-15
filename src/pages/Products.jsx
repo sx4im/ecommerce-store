@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
-import { Product, sampleProducts } from "../src/entities/Product";
-import ProductCard from "../Components/ProductCard";
+import { sampleProducts } from "../entities/Product";
+import ProductCard from "../components/ProductCard";
 import { Search, Filter, X } from "lucide-react";
 
 const categories = [

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { createPageUrl } from "../src/utils";
+import { createPageUrl } from "../utils";
 import { Star, MessageCircle, ShoppingBag } from "lucide-react";
 
 export default function HeroSection() {

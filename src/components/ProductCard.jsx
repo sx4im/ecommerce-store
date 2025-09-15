@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { createPageUrl } from "../src/utils";
+import { createPageUrl } from "../utils";
 
 export default function ProductCard({ product, className = "" }) {
   const whatsappMessage = `Hi! I'm interested in ${product.name}. Please send me more details and pricing.`;

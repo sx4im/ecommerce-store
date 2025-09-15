@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { Product, sampleProducts } from "../src/entities/Product";
-import HeroSection from "../Components/HeroSection";
-import ProductCard from "../Components/ProductCard";
+import { sampleProducts } from "../entities/Product";
+import HeroSection from "../components/HeroSection";
+import ProductCard from "../components/ProductCard";
 import { ArrowRight, Sparkles, Clock, Shield } from "lucide-react";
 import { Link } from "react-router-dom";
-import { createPageUrl } from "../src/utils";
+import { createPageUrl } from "../utils";
 
 export default function Home() {
   const [featuredProducts, setFeaturedProducts] = useState([]);
@@ -69,7 +69,7 @@ export default function Home() {
           <div className="text-center">
             <Link
               to={createPageUrl("Products")}
-              className="bg-black text-yellow-400 px-8 py-4 border-4 border-black brutalist-shadow font-brutal text-xl hover:bg-gray-800 transition-colors duration-200 inline-flex items-center gap-3 transform hover:-translate-y-2"
+              className="bg-black text-yellow-400 px-8 py-4 border-4 border-black brutalist-shadow font-brutal text-xl hover:bg-black-800 transition-colors duration-200 inline-flex items-center gap-3 transform hover:-translate-y-2"
             >
               VIEW ALL PRODUCTS
               <ArrowRight className="w-6 h-6" />

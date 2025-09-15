@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Product, sampleProducts } from "../src/entities/Product";
+import { sampleProducts } from "../entities/Product";
 import { ArrowLeft, Share2, Heart, ShoppingCart, Star } from "lucide-react";
 import { Link, useSearchParams } from "react-router-dom";
-import { createPageUrl } from "../src/utils";
+import { createPageUrl } from "../utils";
 
 export default function ProductPage() {
   const [product, setProduct] = useState(null);

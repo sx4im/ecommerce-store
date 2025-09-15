@@ -21,14 +21,3 @@ export const createPageUrl = (pageName) => {
   return pageMap[pageName] || '/';
 };
 
-export const formatPrice = (price) => {
-  return new Intl.NumberFormat('en-PK', {
-    style: 'currency',
-    currency: 'PKR'
-  }).format(price);
-};
-
-export const truncateText = (text, maxLength) => {
-  if (text.length <= maxLength) return text;
-  return text.substring(0, maxLength) + '...';
-};

@@ -1,344 +1,170 @@
-<div align="center">
+# AFS Centre - Bold Accessories Store
 
-# 🛍️ Neo-Brutalism E-Commerce Template
+A modern, responsive e-commerce website for AFS Centre, featuring a bold brutalist design and WhatsApp-based ordering system.
 
-### *Open Source React E-Commerce Template with Bold Neo-Brutalism Design*
+## 🚀 Features
 
-<br>
+- **Modern UI/UX**: Bold brutalist design with vibrant colors and sharp edges
+- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
+- **WhatsApp Integration**: Direct ordering through WhatsApp messaging
+- **Product Catalog**: Browse and filter products by category
+- **Product Details**: Detailed product pages with image galleries
+- **Fast Performance**: Built with Vite for lightning-fast development and builds
 
-A modern, fully-featured e-commerce template built with **React** and **Neo-Brutalism** design philosophy.  
-Perfect for creating bold, unapologetic online stores that stand out from the crowd.
+## 🛠️ Tech Stack
 
-<br>
+- **Frontend**: React 18.2.0
+- **Routing**: React Router DOM 6.8.0
+- **Styling**: Tailwind CSS 3.2.7
+- **Icons**: Lucide React 0.263.1
+- **Build Tool**: Vite 4.1.0
+- **Language**: JavaScript (ES6+)
 
-**Created by [Saim Shafique](https://saimshafique.com)** • **[GitHub](https://github.com/sx4im)**
-
-<br>
-
-[![GitHub stars](https://img.shields.io/github/stars/sx4im/ecommerce-store?style=for-the-badge&color=red)](https://github.com/sx4im/ecommerce-store)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![React](https://img.shields.io/badge/React-18.0.0-blue.svg?style=for-the-badge&logo=react)](https://reactjs.org/)
-
-</div>
-
----
-
-<div align="center">
-
-## 🎨 **Design Philosophy**
-
-</div>
-
-**Neo-Brutalism at its Finest**
-
-| Element | Implementation |
-|---------|----------------|
-| ✨ **Colors** | Bold, high-contrast colors |
-| 🔲 **Borders** | Thick black borders (3-4px) |
-| 🎯 **Shadows** | Harsh drop shadows |
-| 📐 **Aesthetic** | Intentionally "undesigned" |
-| 🎭 **Typography** | Raw with asymmetrical layouts |
-| 🚫 **Style** | No gradients or subtle elements |
-
----
-
-## 🚀 **Template Features**
-
-### 🛒 **E-Commerce Functionality**
-- **Product Catalog** - Complete product management system
-- **Featured Products** - Highlight bestsellers and promotions
-- **Search & Filter** - Advanced filtering by category, name, or description
-- **WhatsApp Integration** - Direct customer communication
-- **Responsive Design** - Mobile-first approach for all devices
-- **Ready-to-Deploy** - Production-ready code structure
-
-### 🎯 **Demo Categories** (Easily Customizable)
-- 💍 **Jewelry** - Necklaces, bracelets, rings, earrings
-- ⌚ **Watches** - Premium, sports, and smart watches
-- 👜 **Bags** - Designer, crossbody, and evening clutches
-- 👓 **Sunglasses** - Aviator, vintage, and stylish frames
-- 👒 **Hats** - Winter hats and baseball caps
-- 🧣 **Scarves** - Luxury silk scarves
-- 📱 **Phone Cases** - Premium leather cases
-- 🔑 **Keychains** - Stylish brand accessories
-- 👔 **Belts** - Genuine and designer leather belts
-- 💳 **Wallets** - Luxury and minimalist designs
-
-### 📱 **Template Features**
-- 🔗 **Social Media Integration** - Instagram, Facebook, Email links
-- 💬 **WhatsApp Integration** - Direct customer communication
-- 📱 **Mobile Responsive** - Works perfectly on all devices
-- 🎨 **Customizable Branding** - Easy to modify colors, fonts, and content
-
----
-
-<div align="center">
-
-## 🛠️ **Tech Stack**
-
-</div>
-
-<div align="center">
-
-| Technology | Purpose | Version |
-|:----------:|:-------:|:-------:|
-| ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | Frontend Framework | ^18.0.0 |
-| ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) | Navigation | ^6.0.0 |
-| ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) | Styling Framework | ^3.0.0 |
-| ![Lucide](https://img.shields.io/badge/Lucide-000000?style=for-the-badge&logo=lucide&logoColor=white) | Icon Library | Latest |
-| ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) | Build Tool | ^4.0.0 |
-
-</div>
-
----
-
-<div align="center">
-
-## 📦 **Installation**
-
-</div>
-
-### 📋 Prerequisites
-```
-Node.js (v16 or higher)
-npm or yarn
-```
-
-### ⚡ Quick Start
-```bash
-# Clone the repository
-git clone https://github.com/sx4im/ecommerce-store
-
-# Navigate to project directory
-cd ecommerce-store
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-```
-
-### 🌐 Environment Setup
-| Command | Purpose | URL |
-|---------|---------|-----|
-| `npm run dev` | Development | http://localhost:5173 |
-| `npm run build` | Production Build | - |
-| `npm run preview` | Preview Build | - |
-
----
-
-## 📁 **Project Structure**
+## 📁 Project Structure
 
 ```
 AFS/
-├── Components/
-│   ├── HeroSection.jsx     # Landing hero with featured product
-│   └── ProductCard.jsx     # Reusable product display component
-├── Entities/
-│   ├── Layout.jsx          # Main layout with navigation & footer
-│   └── Product.json        # Product data schema
-├── Pages/
-│   ├── Home.jsx           # Homepage with featured products
-│   ├── Product.jsx        # Individual product details
-│   └── Products.jsx       # Product catalog with filters
-├── src/
-│   ├── entities/
-│   │   └── Product.js     # Product class & sample data
-│   ├── utils/
-│   │   └── index.js       # Utility functions
-│   ├── App.jsx           # Main app component
-│   ├── main.jsx          # App entry point
-│   └── index.css         # Global styles
-├── public/
-│   └── favicon.png       # Brand favicon
-└── dist/                 # Production build
+├── favicon.png                 # Site favicon
+├── index.html                  # Main HTML template
+├── package.json               # Dependencies and scripts
+├── package-lock.json          # Locked dependency versions
+├── postcss.config.js          # PostCSS configuration
+├── tailwind.config.js         # Tailwind CSS configuration
+└── src/
+    ├── App.jsx                # Main app component with routing
+    ├── main.jsx               # React app entry point
+    ├── index.css              # Global styles and Tailwind imports
+    ├── components/            # Reusable UI components
+    │   ├── HeroSection.jsx    # Homepage hero section
+    │   └── ProductCard.jsx    # Product card component
+    ├── entities/              # Business logic and data models
+    │   ├── Layout.jsx         # Main layout wrapper
+    │   └── Product.js         # Product model and sample data
+    ├── pages/                 # Page components
+    │   ├── Home.jsx           # Homepage
+    │   ├── Product.jsx        # Individual product page
+    │   └── Products.jsx       # Products listing page
+    └── utils/                 # Utility functions
+        └── index.js           # Helper functions
 ```
 
----
+## 🚀 Getting Started
 
-## 🎯 **Key Components**
+### Prerequisites
 
-### **HeroSection.jsx**
-- Bold landing section with featured product
-- Call-to-action buttons for shopping and WhatsApp
-- Neo-brutalism design with rotated elements
+- Node.js (version 14 or higher)
+- npm or yarn package manager
 
-### **ProductCard.jsx**
-- Reusable product display component
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd AFS
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:5173` to view the application
+
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm start` - Start development server (alias for dev)
+
+## 🎨 Design System
+
+### Color Palette
+- **Primary Red**: `#EF4444` (red-500)
+- **Accent Yellow**: `#EAB308` (yellow-400)
+- **Background**: `#FEF3C7` (yellow-100)
+- **Text**: `#000000` (black)
+- **White**: `#FFFFFF`
+
+### Typography
+- **Font Family**: Arial Black, Helvetica, sans-serif
+- **Style**: Bold, brutalist design with sharp edges
+- **Effects**: Text shadows and transforms for depth
+
+### Components
+- **Brutalist Shadow**: 6px offset black shadow
+- **Border Style**: 4px solid black borders
+- **Transform Effects**: Subtle rotations and hover animations
+
+## 📱 Pages
+
+### Homepage (`/`)
+- Hero section with call-to-action
+- Featured products showcase
+- Why choose us section
+- Direct WhatsApp ordering
+
+### Products (`/products`)
+- Product grid with filtering
+- Category-based filtering
+- Search functionality
+- Responsive grid layout
+
+### Product Detail (`/product?id={id}`)
+- Large product images
+- Detailed product information
+- Quantity selector
 - WhatsApp ordering integration
-- Hover effects and featured product badges
+- Share functionality
 
-### **Layout.jsx**
-- Navigation with mobile menu functionality
-- Footer with social media links
-- Consistent neo-brutalism styling
+## 🔧 Configuration
 
-### **Product.js**
-- Product entity class with methods
-- 24 sample products across all categories
-- Price formatting and product management
+### Tailwind CSS
+The project uses Tailwind CSS for styling. Configuration can be found in `tailwind.config.js`.
 
----
+### PostCSS
+PostCSS configuration is in `postcss.config.js` for CSS processing.
 
-## 📱 **Responsive Design**
+### Vite
+Build configuration is handled by Vite. The main entry point is `src/main.jsx`.
 
-| Breakpoint | Design Focus |
-|------------|--------------|
-| **Mobile** (< 768px) | Touch-friendly navigation, stacked layouts |
-| **Tablet** (768px - 1024px) | Grid layouts, optimized spacing |
-| **Desktop** (> 1024px) | Full feature display, hover effects |
+## 📞 Contact Integration
 
----
+- **WhatsApp**: +92 325 1462621
+- **Email**: afs.centre04@gmail.com
+- **Instagram**: @afs.centre
+- **Facebook**: AFS Centre
 
-## 🎨 **Design System**
+## 🚀 Deployment
 
-### **Colors**
-```css
-Primary: #EF4444 (Red-500)
-Secondary: #FACC15 (Yellow-400)
-Accent: #22C55E (Green-500)
-Background: #FEF3C7 (Yellow-100)
-Text: #000000 (Black)
-Borders: #000000 (Black, 3-4px)
-```
+1. **Build the project**
+   ```bash
+   npm run build
+   ```
 
-### **Typography**
-```css
-Font Family: 'Arial Black', 'Helvetica', sans-serif
-Font Weight: 900 (Brutal)
-Letter Spacing: -0.02em
-```
+2. **Deploy the `dist` folder**
+   The build output will be in the `dist` directory, ready for deployment to any static hosting service.
 
-### **Shadows**
-```css
-Brutalist Shadow: 6px 6px 0px #000000
-Small Shadow: 4px 4px 0px #000000
-```
+## 📄 License
+
+This project is licensed under the MIT License - see the package.json file for details.
+
+## 👥 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## 🐛 Issues
+
+If you encounter any issues, please create an issue in the repository or contact the development team.
 
 ---
-
-## 🛒 **E-Commerce Features**
-
-### **Product Management**
-- **24 Products** across 10 categories
-- **Featured Products** system
-- **Availability** tracking
-- **Price Formatting** (PKR currency)
-
-### **Shopping Experience**
-- **Search Functionality** - Find products instantly
-- **Category Filtering** - Browse by product type
-- **WhatsApp Ordering** - Direct contact for purchases
-- **Product Details** - Comprehensive product pages
-
-### **Mobile Commerce**
-- **Touch-Optimized** interface
-- **Mobile Menu** with smooth animations
-- **Responsive** product grids
-- **WhatsApp** integration for mobile orders
-
----
-
-
-## 🚀 **Deployment**
-
-### **Vite Build**
-```bash
-npm run build
-# Generates optimized build in /dist
-```
-
-### **Deployment Options**
-- **Vercel** - Recommended for React apps
-- **Netlify** - Easy static site deployment
-- **GitHub Pages** - Free hosting option
-- **Custom Server** - Traditional hosting
-
----
-
-## 🔧 **Development**
-
-### **Available Scripts**
-```bash
-npm run dev          # Start development server
-npm run build        # Build for production
-npm run preview      # Preview production build
-npm run lint         # Run ESLint
-```
-
-### **Development Guidelines**
-- Follow **Neo-Brutalism** design principles
-- Use **Tailwind CSS** for styling
-- Implement **mobile-first** approach
-- Maintain **accessibility** standards
-
----
-
-## 📈 **Performance**
-
-### **Optimization Features**
-- ⚡ **Vite** for fast builds
-- 🎯 **Code Splitting** for efficient loading
-- 📱 **Mobile Optimization** for all devices
-- 🖼️ **Image Optimization** with proper sizing
-
-### **SEO Features**
-- 📝 **Meta Descriptions** for search engines
-- 🔍 **Structured Data** for products
-- 📱 **Mobile-Friendly** design
-- ⚡ **Fast Loading** times
-
----
-
-## 🤝 **Contributing**
-
-Contributions are welcome! This template is open source and free to use. Please follow these guidelines:
-
-1. **Fork** the repository
-2. **Create** a feature branch
-3. **Follow** neo-brutalism design principles
-4. **Test** on multiple devices
-5. **Submit** a pull request
-
-### **Ways to Contribute**
-- 🐛 **Bug Fixes** - Help improve the template
-- ✨ **New Features** - Add functionality for e-commerce
-- 🎨 **Design Improvements** - Enhance the neo-brutalism aesthetic
-- 📚 **Documentation** - Improve guides and examples
-- 🌍 **Translations** - Multi-language support
-
----
-
-## 📄 **License**
-
-**MIT License** - Free to use for personal and commercial projects
-
-```
-MIT License
-
-Copyright (c) 2025 Saim Shafique
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-
